@@ -1,0 +1,8 @@
+1. Na maszynie wirtualnie zainstaluj minikube oraz kubectl, korzystając na przykład z takiej instrukcji:
+https://medium.com/@areesmoon/installing-minikube-on-ubuntu-20-04-lts-focal-fossa-b10fad9d0511
+2. Uruchom swój pierwszy klaster K8s.
+3. Do istniejącego projektu dodaj pliki konfiguracyjne dla każdego kontenera (do każdego z nich Deployment oraz Service).
+4. Zbuduj oraz uruchom pody utworzone na podstawie stworzonych w poprzednim kroku plików.
+5. Zeskaluj jeden z serwisów, aby miał co najmniej 2 repliki.
+6. Sprawdź adres swojej aplikacji i nawiąż z nią połączenie.
+Przydatne repozytorium (branch main): https://github.com/kzabinski/demoDockerCompose
